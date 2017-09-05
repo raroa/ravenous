@@ -16,6 +16,6 @@ export class BusinessList extends React.Component {
 
     }
 }
-
+let whatThe;
 // This is a change.
 //export default BusinessList;
