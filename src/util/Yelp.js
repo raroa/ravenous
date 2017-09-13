@@ -19,7 +19,7 @@ export const Yelp = {
                 Authorization: `Bearer ${accessToken}`
               }
             }
-          ).then(response => {
+          )}).then(response => {
             return response.json()
         }).then(jsonResponse => {
             if(jsonResponse.businesses) {
@@ -41,7 +41,7 @@ export const Yelp = {
                 )
             }
         })
-    })
+    
     }
 }
 
