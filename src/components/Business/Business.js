@@ -5,6 +5,7 @@ import './Business.css';
 
 export class Business extends React.Component {
     render() {
+      console.log(this.props.business.category);
         return (
           <div className="Business">
             <div className="image-container">
